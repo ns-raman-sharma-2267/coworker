@@ -1,0 +1,12 @@
+[paths]
+projects_root = "D:"   # forward slashes work on Windows
+data_dir = "data"
+
+[claude]
+model = "haiku"        # CLI aliases: haiku | sonnet | opus
+
+[index]
+include_ext = [".py", ".md", ".txt", ".js", ".ts", ".json", ".toml", ".yaml", ".html", ".css", ".sql", ".csv", ".yml", ".ini", ".cfg", ".bat", ".sh", ".tsx", ".jsx", ".vue", ".php", ".rb", ".go", ".rs", ".java", ".c", ".cpp", ".h", ".hpp", ]
+exclude_dirs = [".git", ".venv", "node_modules", "__pycache__", "dist", "build", "data", ".idea", ".vscode", "venv", "env", "tmp", "temp", "logs", "log", "cache", ".cache", ".class"]
+exclude_files = [".env", "credentials.json", "secrets.json", ".DS_Store", "Thumbs.db", "desktop.ini", "npm-debug.log", "yarn-error.log", "yarn-debug.log", "pnpm-debug.log", "package-lock.json", "yarn.lock", "pnpm-lock.yaml", ".eslintcache", ".prettiercache", ".stylelintcache", ".parcel-cache", ".next/cache", ".nuxt/cache", ".vite/cache"]
+max_file_kb = 4096
